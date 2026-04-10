@@ -1,5 +1,7 @@
 library(vcfR)
 library(poppr)
+library(tidyr)
+library(tibble)
 
 # file read in and set up to get from vcf -> SNPclone
 vcf <- read.vcfR("path/to/file")
